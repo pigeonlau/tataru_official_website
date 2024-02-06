@@ -1,0 +1,37 @@
+/* 确保这个样式只应用于特定的段落，例如通过ID或类选择器 */
+#html5 p {
+    font-size: 1.5em; /* 这里设置为1.5倍的默认字体大小 */
+    line-height: 1.6; /* 行高设置为1.6倍，让文字更易读 */
+    margin: 50px 0 20px; /* 上下边距设置为0，左右边距可以根据需要调整 */
+}
+
+#bootstrap p {
+    font-size: 1.5em; /* 这里设置为1.5倍的默认字体大小 */
+    line-height: 1.6; /* 行高设置为1.6倍，让文字更易读 */
+    margin: 50px 0 20px; /* 上下边距设置为0，左右边距可以根据需要调整 */
+}
+
+.dragon-button {
+    display: inline-block;
+    padding: 20px 50px;
+    background-image: url('../images/dragon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+}
+
+.dragon-button:hover {
+    background-color: #FF6347; /* 暗红色 */
+}
+
+.dragon-button:active {
+    transform: translateY(1px);
+}
